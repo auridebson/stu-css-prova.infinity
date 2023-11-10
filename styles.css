@@ -1,5 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 section {
-    font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +11,7 @@ section {
 
 
 footer {
-    font-size: 6px;
+    font-size: 9px;
     margin: 5px;
     padding: 10px;
 }
@@ -73,8 +75,21 @@ footer {
     font-size: 1.5em;
     margin-bottom: 10px;
   }
+
+  .team-stadium {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #ffff0077;
+  }
   
   .team-origin, .team-curiosity {
     font-size: 1.2em;
     color: #555;
+  }
+
+  .card-campoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
   }
